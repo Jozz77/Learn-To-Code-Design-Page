@@ -87,13 +87,15 @@ input[type="submit"]{
     border-radius: 10px;
     font-family:'Poppins', sans-serif;
     font-weight: 400;
+    box-shadow: 0 10px 2px -2px rgba(7, 34, 7, 0.144);
 }
 .forms{
     background-color: white;
     padding: 35px;
     margin-right: 90px;
-    margin-top: 10px;
+    margin-top: 20px;
     border-radius: 15px;
+    box-shadow: 0 10px 2px -2px rgba(7, 34, 7, 0.144);
 }
 .forms p{
     text-align: center;
@@ -124,10 +126,10 @@ a{
         display: flex;
         flex-direction: column;
         margin-top: 70px;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: auto;
+        margin-right: auto;
         margin-bottom: 50px;
-        width: 80%;
+        width: 100%;
         align-items: center;
     }
     .together{
@@ -137,7 +139,7 @@ a{
         padding-top: 40px;
         margin-right: 0px;
         padding-left: 0px;
-        width: 110%;
+        width: 100%;
         
     }
     h1{
@@ -149,22 +151,25 @@ a{
         padding-top: 0px;
         padding-left: 45px;
         padding-bottom: 20px;
+        margin-bottom: 5px;
         
     }
     .learn p{
         font-family: 'Poppins', sans-serif;
         font-weight: 400;
         color: white;
-        width: 90%;
+        width: 100%;
         font-size: large;
-        padding-left: 20px;
+        padding-left: 40px;
         text-align: center;
         justify-content: center;
+        margin: 0 auto;
     }
     .second{
-        padding-top: 40px;
-        margin-right: 0px;
-        margin-left: 10px;
+        padding-top: 60px;
+        margin: 0 auto;
+        width: 100%;
+        padding-bottom: 30px;
     }
     input{
         display: block; 
@@ -195,14 +200,19 @@ a{
         border-radius: 10px;
         font-family:'Poppins', sans-serif;
         font-weight: 400;
+        margin: 0 auto;
+        box-shadow: 0 10px 2px -2px rgba(7, 34, 7, 0.144);
     }
     .forms{
         background-color: white;
-        padding: 15px;
-        margin-right: 0px;
-        margin-top: 10px;
-        border-radius: 15px;
-        width: 90%;
+        padding: 25px 15px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 25px;
+        border-radius: 10px;
+        width: 85%;
+        box-shadow: 0 10px 2px -2px rgba(7, 34, 7, 0.144);
+        
     }
     .forms p{
         text-align: center;
@@ -210,6 +220,7 @@ a{
         font-family:'Poppins', sans-serif;
         font-weight: 400;
         font-size: small;
+        margin: 0 25px;
     }
     a{
         color: hsl(0, 100%, 74%);
